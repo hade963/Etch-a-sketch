@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etech-sketch</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Start tools section -->
+  <div class="tools">
+    <div class="container">
+      <input type="color" name="color" id="pickColor">
+      <input type="range" min="4" max="16" step="4"  value ="16" name="number" id="size">
+      <button id="clearButton">clear canvas</button>
+      <ul class="last-used-colors">there is no lastly used colors 
+        <li></li>
+      </ul>
+    </div>
+  </div>
+  <!-- End tools section -->
+  <!-- Start canvas Section -->
+  <div class="canvas">
+    <div class="container">
+      <div id="grid-pad"></div>
+    </div>
+  </div>
+  <script src="scripts/script.js"></script>
+  <!-- End canvas Section -->
+</body>
+</html>
